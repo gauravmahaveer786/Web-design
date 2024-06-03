@@ -1,0 +1,529 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header{
+    height: 160px;
+    width: 100%;
+    border: 1px solid white;
+}
+.header .top-header{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.header .top-header .left-top-header{
+    height: 70px;
+    width: 23%;
+
+
+}
+.header .top-header .center-top-header{
+    height: 42px;
+    width: 40%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.header .top-header .center-top-header .a{
+    height: 40px;
+    width: 70%;
+}
+.header .top-header .center-top-header .a .search{
+    height: 40px;
+    width: 100%;
+    padding-left: 10px;
+    border: none;
+    
+}
+.header .top-header .center-top-header .b{
+    height: 40px;
+    width: 25%;
+    padding-left: 17px;
+    display: flex;
+    align-items: center;
+    
+}
+.header .top-header .center-top-header .c{
+    height: 40px;
+    width: 6%; 
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header .top-header .right-top-header{
+    height: 70px;
+    width: 25%;
+
+}
+.header .top-header .right-top-header .first{
+    height: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+
+}
+.header .top-header .right-top-header .first .a{
+    height: 25px;
+    width: 40%;
+
+}
+.header .top-header .right-top-header .first .b{
+    height: 18px;
+    width: 6%;
+    color: white;
+    background-color: brown;
+    margin-bottom: 5px;
+}
+.header .top-header .right-top-header .first .c{
+    height: 25px;
+    width: 45%;
+    
+}
+
+.header .top-header .right-top-header .second{
+    height: 35px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+.header .top-header .right-top-header .second .a{
+    height: 30px;
+    width: 50%;
+    display: flex;
+
+}
+.header .top-header .right-top-header .second .a .p{
+    margin-left: 7px;
+}
+.header .top-header .right-top-header .second .b{
+    height: 30px;
+    width: 50%;
+    display: flex;
+
+}
+.header .top-header .right-top-header .second .b .p{
+    margin-left: 7px;
+}
+
+
+ 
+.header .bottom-header{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+     justify-content: center;
+     align-items: center;
+
+     
+}
+.header .bottom-header .left{
+    height: 60px;
+    width: 20%;
+     background-color: blue; 
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.header .bottom-header .center{
+    height: 60px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid black;
+}
+.center:hover{
+    transition: 2s;
+    background-color: cadetblue;
+}
+.header .bottom-header .center a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+.header .bottom-header .right{
+    height: 60px;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+.right:hover{
+    transition: 2s;
+    background-color: cadetblue;
+}
+.header .bottom-header .right svg{
+    margin-right: 10px;
+}
+.header .bottom-header .right span{
+    color: green;
+}
+.content{
+    height: 400px;
+    width: 100%;
+    background-image: url(slider-1.webp);
+    background-size: cover;
+    background-position: center;
+    border: 1px solid white;
+}
+
+.content h2{
+    margin-top: 100px;
+    font-size: 40px;
+    margin-left: 55px;
+}
+.content p{
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 55px;
+    margin-top: 20px;
+}
+.content .button{
+   border: 1px solid green; 
+   line-height: 35px;
+   width: 100px;
+   margin-left: 55px;
+   border-radius: 20px;
+   margin-top: 20px;
+
+
+
+}
+.button:hover{
+    transition: 2s;
+    background-color: green;
+}
+.container{
+    height: 110px;
+    width: 88%;
+    border: 1px solid  rgba(0, 0, 0, 0.100);
+    margin-left: 60px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.container .a1{
+    height: 110px;
+    width: 24.9%;
+    border-right: 1px solid  rgba(0, 0, 0, 0.100);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .a1 h4{
+    margin-left: 10px;
+}  
+.container .a1 svg{
+    color: green;
+    height: 30px;
+    width: 30px;
+
+}
+.section{
+    height: 230px;
+    width: 88%;
+    border: 1px solid rgba(0, 0, 0, 0.100);
+    margin-left: 60px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.section .a{
+    height: 230px;
+    width: 50%;
+    display: flex;
+    border-right: 1px solid rgba(0, 0, 0, 0.100);
+}
+.section .a .a1{
+    height: 230px;
+    width: 50%;
+
+    margin-top: 15px;
+}
+.section .a .a1 a{
+    text-decoration: none;
+    
+}
+.section .a .a1 del{
+    color: red;
+}
+.section .a .a1 h3{
+    margin-top: 10px;
+}
+.section .a .a1 p{
+    margin-top: 10px;
+    font-size: 15px;
+}
+.h2{
+    margin-left: 60px;
+    font-size: 15px;
+    margin-top: 30px;
+}
+.section2{
+    height: 200px;
+    width: 88%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-left: 60px;
+    align-items: center;
+}
+.section2 .photo{
+    height: 200px;
+    width: 20%;
+    border: 1px solid rgba(0, 0, 0, 0.100);
+    text-align: center;
+
+
+
+}
+.photo:hover{
+    /* background-color: burlywood; */
+    transition: 1s;
+     transform: scalex(1.2);
+    /* transform: rotate(90deg); */
+}
+ 
+  
+
+.section3{
+    height: 150px;
+    width: 88%;
+    border: 1px solid black;
+    margin-left: 60px;
+    margin-top: 40px;
+    background-image: url(promo-product-image-huge.webp);
+    background-size: cover;
+}
+/* .section3 :hover{
+    transition: 1s;
+    transform: scalex(1.2);
+} */
+.section4{
+    height: 250px;
+    width: 88%;
+    border: 1px solid  rgba(0, 0, 0, 0.100);
+    margin-left: 60px;
+    display: flex;
+    padding: 10px;
+
+}
+.section4 .b1{
+    height: 250px;
+    width: 20%;
+    border-right:  1px solid rgba(0, 0, 0, 0.100); 
+}
+.section4 .b1 a{
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    border: 1px solid green;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.section4 .b1 del{
+    color: red;
+    margin-top: 10px;
+}
+ .b1:hover{
+    transition: 2s;
+    transform: scaleX(1.2);
+}
+ 
+.section5{
+    height: 300px;
+    width: 88%;
+    border: 1px solid white;
+    margin-left: 60px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.section5 .a{
+    height: 300px;
+    width: 30%;
+    border: 1px solid  white;
+    background-image: url(promo-product-image-2.webp);
+    background-size: cover;
+
+}
+.section5 .b{
+    height: 300px;
+    width: 33%;
+    border: 1px solid white;
+}
+.section5 .b .b1{
+    height: 145px;
+    width: 100%;
+    background-image: url(promo-product-image-sm-2.webp);
+    background-size: cover;
+}
+.section5 .b .b2{
+    height: 145px;
+    width: 100%;
+   
+    margin-top: 10px;
+    background-image: url(promo-product-image-sm.webp);
+    background-size: cover;
+}
+.section5 .c{
+    height: 300px;
+    width: 33%;
+    border: 1px solid white;
+    background-image: url(promo-product-image.webp);
+    background-size: cover;
+}
+.section6{
+    height: 130px;
+    width: 88%;
+    border: 0.1px solid  rgba(0, 0, 0, 0.100);
+    margin-top: 40px;
+    margin-left: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.section6 .a{
+    height: 100px;
+    width: 19%;
+    border: 1px solid  white;
+    background-image: url(brand-2.webp);
+    background-size: cover;
+}
+.section6 .b{
+    height: 100px;
+    width: 19%;
+    border: 1px solid  white;
+    background-image: url(brand-3.webp);
+    background-size: cover;
+}
+
+.section6 .c{
+    height: 100px;
+    width: 19%;
+    border: 1px solid white;
+    background-image: url(brand-4.webp);
+    background-size: cover;
+}
+
+.section6 .d{
+    height: 100px;
+    width: 19%;
+    border: 1px solid  white;
+    background-image: url(brand-5.webp);
+    background-size: cover;
+}
+
+.section6 .e{
+    height: 100px;
+    width: 19%;
+    border: 1px solid white;
+    background-image: url(brand-6.webp);
+    background-size: cover;
+}
+.footer{
+    height: 400px;
+    width: 100%;
+    border: 1px solid black;
+    background-color: #212529;
+    margin-top: 40px;
+    display: flex;
+}
+.footer .a{
+    height: 300px;
+    width: 30%;
+    border: 1px solid 212529;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.footer .a .h3{
+    color: #dee2e6;
+}
+.footer .a .a1{
+    height: 50px;
+    width: 200px;
+    border: 1px solid 212529;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ justify-content: space-evenly;
+ 
+} 
+
+.footer .a .a1 svg{
+    height: 30px;
+    width: 30px;
+    color: #dee2e6;
+} 
+
+.footer .b{
+    height: 300px;
+    width: 15%;
+    border: 1px solid 212529;
+    margin-top: 50px; 
+}
+.footer .b .nav{
+    color: #dee2e6;;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.footer .c{
+    height: 300px;
+    width: 17%;
+    border: 1px solid 212529;
+    margin-top: 50px;
+}
+.footer .c .nav{
+    color: #dee2e6;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.footer .d{
+    height: 300px;
+    width: 30%;
+    border: 1px solid 212529;
+    margin-top: 50px;
+}
+.footer .d .nav{
+    color: #dee2e6;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.footer .d .email{
+    margin-left: 20px;
+    line-height: 40px;
+    width: 300px;
+    background-color:  #212529;
+    border: 1px solid white;
+    color: #dee2e6;
+    padding-left: 20px;
+}
+.bottom-footer{
+    height: 70px;
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bottom-footer p{
+    color: white;
+}
+
